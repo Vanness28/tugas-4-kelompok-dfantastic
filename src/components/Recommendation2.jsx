@@ -14,7 +14,7 @@ const Recommendation2 = () => {
         </div>
             <div className="relative mt-7 ml-9 pr-8 sm:ml-2">
                 <img src={Rekom3} alt="" className="rounded-lg w-screen"/>
-            <div className="absolute bottom-2 text-white left-6 lg:left-12 xl:left-14">
+            <div className="absolute bottom-2 text-white left-6 lg:left-12">
                 <h1 className="font-semibold text-sm xl:text-2xl">Puncak Melby'Ls</h1>
                 <p className="text-xs xl:text-lg">Destination</p>
             </div>

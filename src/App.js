@@ -42,17 +42,17 @@ function App() {
     {
       img: RestaurantImage1,
       Name: "Elmonts Coffee Resto",
-      Address: "Kolongan Satu, Tomohon",
+      Address: "Kolongan 1, Tomohon",
     },
     {
       img: RestaurantImage2,
       Name: "Kelapa 17 Tomohon",
-      Address: "Walian Satu, Tomohon",
+      Address: "Walian 1, Tomohon",
     },
     {
       img: RestaurantImage3,
       Name: "House of Kitty Resto",
-      Address: "Kakaskasen Dua, Tomohon",
+      Address: "Kakaskasen 2, Tomohon",
     },
     {
       img: RestaurantImage4,
@@ -85,7 +85,7 @@ function App() {
           <Recommendation3 />
         </div>
         <h2 className="mt-8 font-bold text-center text-black text-2xl md:text-left md:mt-12 md:ml-9 md:text-2xl lg:text-3xl lg:mt-14 xl:mt-16 xl:ml-12 xl:text-4xl">Restoran</h2>
-        <div className="flex flex-col md:ml-0 md:flex-row md:space-x-5 lg:space-x-10 xl:space-x-16">
+        <div className="flex flex-col md:ml-0 md:flex-row md:space-x-0 xl:space-x-16">
         {rowTwo.map((data) => (
       <RestaurantHomepage
         img={data.img}
