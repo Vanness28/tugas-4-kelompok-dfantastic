@@ -15,7 +15,7 @@ const DestinationHome = ({ img, Name, Address }) => {
                     <img src={Star} alt="" className="w-5 lg:w-7 xl:w-9" />
                     <img src={Star} alt="" className="w-5 lg:w-7 xl:w-9" />
                 </div>
-                <p className="text-xs lg:text-base xl:text-lg text-[#808080]">{Address}</p>
+                <p className="text-xs lg:text-base xl:text-lg text-[#b19999]">{Address}</p>
             </div>        
         </div>
     </>
