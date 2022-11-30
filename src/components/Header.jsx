@@ -9,7 +9,7 @@ const Header = () => {
             <h1 className="text-[#3252DF] font-semibold md:text-xl xl:text-2xl">Tomohon<span className="text-[#152C5B]">Loka</span></h1>
             <nav className="hidden md:block ml-64 lg:ml-96">
                 <ul className="flex space-x-14 lg:space-x-16 xl:space-x-24 text-[#152C5B] font-medium text-base lg:text-lg xl:text-2xl lg:ml-24 xl:ml-80">
-                    <li className="text-[#3252DF]"><Link to={'/'}>Home</Link></li>
+                    <li className="text-[#3252DF]"><Link to={'/'}>Beranda</Link></li>
                     <li><Link to={'/destination'}>Destinasi</Link></li>
                     <li><Link to={'/restaurant'}>Restoran</Link></li>
                 </ul>

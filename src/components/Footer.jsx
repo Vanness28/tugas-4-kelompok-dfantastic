@@ -16,7 +16,7 @@ const Footer = () => {
                 <p class="text-[#B0B0B0] text-xs lg:text-base xl:text-xl">Rekomendasi</p>
             </div>
             <div>
-                <h3 class="text-[#3252DF] font-bold text-sm lg:text-lg xl:text-xl mb-3">Contact</h3>
+                <h3 class="text-[#3252DF] font-bold text-sm lg:text-lg xl:text-xl mb-3">Kontak</h3>
                 <p class="text-[#B0B0B0] text-xs lg:text-base xl:text-xl mb-1">Pujigck9@gmail.com</p>
                 <p class="text-[#B0B0B0] text-xs lg:text-base xl:text-xl">Vannesstumampas28@gmail.com</p>
             </div>

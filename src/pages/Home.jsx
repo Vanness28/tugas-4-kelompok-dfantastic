@@ -14,6 +14,8 @@ import RestaurantHome from "../components/RestaurantHome";
 import Recommendation1 from "../components/Recommendation1";
 import Recommendation2 from "../components/Recommendation2";
 import Recommendation3 from "../components/Recommendation3";
+import Rekom2 from "../assets/rekom2.png";
+import Rekom3 from "../assets/rekom3.png";
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -46,12 +48,12 @@ const Home = () => {
           Address: "Kolongan 1, Tomohon",
         },
         {
-          img: RestaurantImage2,
+          img: RestaurantImage3,
           Name: "Kelapa 17 Tomohon",
           Address: "Walian 1, Tomohon",
         },
         {
-          img: RestaurantImage3,
+          img: RestaurantImage2,
           Name: "House of Kitty Resto",
           Address: "Kakaskasen 2, Tomohon",
         },
@@ -61,12 +63,23 @@ const Home = () => {
           Address: "Kawangkoan, Tomohon",
         },
       ]
+      const rowThree = [
+        {
+          img: Rekom2,
+          Name: "Puncak Narwastu",
+        },
+        {
+          img: Rekom3,
+          Name: "Puncak Melby'Ls",
+        },
+      ]
     return(
         <>
             <Header/>
             <Hero/>
             <div>
                 <h2 className="mt-12 font-bold text-center text-black text-2xl md:text-left md:mt-16 md:ml-9 md:text-2xl lg:text-3xl lg:mt-20 lg:ml-10 xl:mt-24 xl:ml-12 xl:text-4xl">Destinasi</h2>
+                <button className="text-[#152C5B] text-sm font-semibold mt-5 ml-24 min-[375px]:ml-32 min-[425px]:ml-36  md:ml-[600px] lg:ml-[870px] xl:ml-[1240px] md:text-md xl:text-lg">Lihat Selengkapnya</button>
                 <div className="flex flex-col ml-20 min-[375px]:ml-28 min-[425px]:ml-32 md:ml-0 md:flex-row md:space-x-7 xl:space-x-14">
                 {rowOne.map((data) => (
                     <DestinationHome 
@@ -77,18 +90,24 @@ const Home = () => {
                 ))}
                 </div>
             </div>
-            <div>
             <h2 className="mt-12 font-bold text-center text-black text-2xl md:text-left md:mt-16 md:ml-9 md:text-2xl lg:text-3xl lg:mt-14 xl:mt-16 xl:ml-12 xl:text-4xl">Rekomendasi</h2>
             <div className="grid grid-cols-1 gap-4">
                 <Recommendation1 />  
             </div>  
-                <div className="flex flex-col md:flex-row lg:space-x-0.5 grid-cols-2 sm:grid-cols-1 ">
-                <Recommendation2 />
+            <div className="flex flex-col md:flex-row md:space-x-1 lg:space-x-0.5 grid-cols-2 sm:grid-cols-1 ">
+                {rowThree.map((data) => (
+                    <Recommendation2 
+                        img={data.img}
+                        Name={data.Name}
+                    />
+                ))}
+            </div>
+            <div className="flex flex-col md:flex-row md:-space-x-10 lg:-space-x-8.5 xl:space-x-9 grid-cols-3 sm:grid-cols-1">
+                    <Recommendation3 />
                 </div>
-                <div className="flex flex-col md:flex-row lg:space-x-0.5 grid-cols-3 sm:grid-cols-1">
-                <Recommendation3 />
-                </div>
+            <div>
                 <h2 className="mt-8 font-bold text-center text-black text-2xl md:text-left md:mt-12 md:ml-9 md:text-2xl lg:text-3xl lg:mt-14 xl:mt-16 xl:ml-12 xl:text-4xl">Restoran</h2>
+                <button className="text-[#152C5B] text-sm font-semibold mt-5 ml-24 min-[375px]:ml-32 min-[425px]:ml-36  md:ml-[600px] lg:ml-[870px] xl:ml-[1240px] md:text-md xl:text-lg">Lihat Selengkapnya</button>
                 <div className="flex flex-col md:ml-0 md:flex-row md:space-x-0 xl:space-x-16">
                 {rowTwo.map((data) => (
                     <RestaurantHome
