@@ -4,7 +4,7 @@ import SosialMedia from "../assets/Sosial Media.svg";
 const Footer = () => {
     return (
         <>
-            <div class="grid grid-cols-1 gap-3 space-x-2 py-6 text-center mt-14 md:grid-cols-4 md:text-left md:gap-4 md:px-14 lg:grid-cols-4 lg:gap-1 lg:px-20 lg:py-20 lg:space-x-5 border-t-2 border-[#E5E5E5]">
+            <div class="grid grid-cols-1 gap-3 space-x-2 py-6 text-center mt-10 md:grid-cols-4 md:text-left md:gap-4 md:px-14 lg:grid-cols-4 lg:gap-1 lg:px-20 lg:py-20 lg:space-x-5 border-t-2 border-[#E5E5E5]">
             <div class="pl-2">
                 <h4 class="text-[#3252DF] font-bold text-sm lg:text-lg xl:text-xl mb-3">Tomohon<span class="text-[#152C5B]">Loka</span></h4>
                 <p class="text-[#B0B0B0] text-xs lg:text-base xl:text-xl">Website ini menyajikan informasi tentang destinasi dan restoran di Kota Tomohon.</p>

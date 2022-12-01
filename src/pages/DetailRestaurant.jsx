@@ -18,11 +18,13 @@ const DetailRestaurant = () => {
           img: Food1,
           name: "Nasi Hongkong",
           price: "32.000",
+          recommended: true,
         },
         {
           img: Food2,
           name: "Bubur Ayam",
           price: "29.000",
+          recommended: false,
         },
         {
           img: Food3,
@@ -58,6 +60,7 @@ const DetailRestaurant = () => {
                 img={data.img}
                 name={data.name}
                 price={data.price}
+                recommended={data.Boolean}
             />
         ))}
         </div>
