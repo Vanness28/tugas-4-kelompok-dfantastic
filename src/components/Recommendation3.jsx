@@ -10,21 +10,21 @@ const Recommendation3 = () => {
     <div className="grid grid-cols-1 mt-3 gap-3 md:mt-0 md:grid md:grid-cols-3 md:gap-5 md:pr-20 lg:pr-12 xl:pr-10">
         <div className="relative mt-4 md:mt-7 ml-9 pr-8 md:w-64 lg:w-80 xl:w-full">
                 <img src={Rekom4} alt="" className="rounded-lg w-screen h-36 min-[375px]:h-40 min-[425px]:h-48 md:h-full"/>
-            <div className="absolute bg-gradient-to-r from-[#241A1A] to-transparent rounded-bl-lg px-20 bottom-0 py-1.5 lg:py-3 md:pr-16 text-white">
+            <div className="absolute bg-gradient-to-r from-[#0066FE] to-transparent rounded-bl-lg px-20 bottom-0 py-1.5 lg:py-3 md:pr-16 text-white">
                 <h1 className="font-semibold text-sm lg:text-xl xl:text-2xl -ml-16"><Link to={'/detailrestaurant'}>Gardenia Country Inn</Link></h1>
                 <p className="text-xs lg:text-base xl:text-lg -ml-16">Restoran</p>
             </div>
         </div>
         <div className="relative mt-4 md:mt-7 ml-9 pr-8 md:w-64 lg:w-80 xl:w-full">
                 <img src={Rekom5} alt="" className="rounded-lg w-screen h-36 min-[375px]:h-40 min-[425px]:h-48 md:h-full"/>
-            <div className="absolute bg-gradient-to-r from-[#241A1A] to-transparent rounded-bl-lg px-20 bottom-0 py-1.5 lg:py-3 md:pr-16 text-white">
+            <div className="absolute bg-gradient-to-r from-[#0066FE] to-transparent rounded-bl-lg px-20 bottom-0 py-1.5 lg:py-3 md:pr-16 text-white">
                 <h1 className="font-semibold text-sm lg:text-xl xl:text-2xl -ml-16"><Link to={'/detailrestaurant'}>Green Garden Restoran</Link></h1>
                 <p className="text-xs lg:text-base xl:text-lg -ml-16">Restoran</p>
             </div>
         </div>
         <div className="relative mt-4 md:mt-7 ml-9 pr-8 md:w-64 lg:w-80 xl:w-full">
                 <img src={Rekom6} alt="" className="rounded-lg w-screen h-36 min-[375px]:h-40 min-[425px]:h-48 md:h-full"/>
-            <div className="absolute bg-gradient-to-r from-[#241A1A] to-transparent rounded-bl-lg px-20 bottom-0 py-1.5 lg:py-3 md:pr-16 text-white">
+            <div className="absolute bg-gradient-to-r from-[#0066FE] to-transparent rounded-bl-lg px-20 bottom-0 py-1.5 lg:py-3 md:pr-16 text-white">
                 <h1 className="font-semibold text-sm lg:text-xl xl:text-2xl -ml-16"><Link to={'/detailrestaurant'}>D-Linow Restoran</Link></h1>
                 <p className="text-xs lg:text-base xl:text-lg -ml-16">Restoran</p>
             </div>

@@ -18,18 +18,19 @@ const DetailRestaurant = () => {
           img: Food1,
           name: "Nasi Hongkong",
           price: "32.000",
-          recommended: true,
+          isPopular: true,
         },
         {
           img: Food2,
           name: "Bubur Ayam",
           price: "29.000",
-          recommended: false,
+          isPopular: false,
         },
         {
           img: Food3,
           name: "Nasi Rahang Tuna",
           price: "45.000",
+          isPopular: false,
         },
       ]
       const rowTwo = [
@@ -37,16 +38,19 @@ const DetailRestaurant = () => {
           img: Drink1,
           name: "Es Teh Manis",
           price: "9.000",
+          isPopular: false,
         },
         {
           img: Drink2,
           name: "Es Kelapa Muda",
           price: "22.000",
+          isPopular: true,
         },
         {
           img: Drink3,
           name: "Es Kacang Advokat",
           price: "26.000",
+          isPopular: false,
         },
       ]
     return (
@@ -60,7 +64,7 @@ const DetailRestaurant = () => {
                 img={data.img}
                 name={data.name}
                 price={data.price}
-                recommended={data.Boolean}
+                isPopular={data.isPopular}
             />
         ))}
         </div>
@@ -71,6 +75,7 @@ const DetailRestaurant = () => {
                 img={data.img}
                 name={data.name}
                 price={data.price}
+                isPopular={data.isPopular}
             />
         ))}
         </div>
