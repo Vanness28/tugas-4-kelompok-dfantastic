@@ -39,7 +39,7 @@ const Home = () => {
         {
           img: DestinationImage4,
           Name: "Danau Linow",
-          Address: "Tomohon",
+          Address: "Lahendong, Tomohon",
         },
       ]
       const rowTwo = [

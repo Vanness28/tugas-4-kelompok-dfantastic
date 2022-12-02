@@ -43,8 +43,8 @@ function App() {
     <div className="flex flex-col space-y-10">
       <DetailDestination1 />
     </div>
-    <h2 className="mt-12 font-bold text-center text-black text-2xl md:text-left md:mt-16 md:ml-9 md:text-2xl lg:text-3xl lg:mt-20 lg:ml-10 xl:mt-24 xl:ml-12 xl:text-4xl">Area Tempat Wisata</h2>
-    <div className="flex flex-col md:flex-row md:space-x-1 lg:space-x-0.5 md:grid md:grid-cols-2 sm:grid-cols-1 ">
+    <h2 className="mt-12 font-bold text-center text-black text-2xl md:text-left md:mt-16 md:ml-12 md:text-2xl lg:text-3xl lg:mt-20 xl:mt-24 xl:text-4xl">Area Tempat Wisata</h2>
+    <div className="flex flex-col md:flex-row md:space-x-1 lg:space-x-0.5 md:grid md:grid-cols-2 sm:grid-cols-1 md:pr-10">
         {rowOne.map((data) => (
            <DetailDestination2
            img={data.img}
@@ -52,7 +52,7 @@ function App() {
             />
         ))}
     </div>
-    <h2 className="mt-12 font-bold text-center text-black text-2xl md:mt-16 md:ml-9 md:text-2xl lg:text-3xl lg:mt-20 lg:ml-10 xl:mt-24 xl:ml-12 xl:text-4xl">Album</h2>
+    <h2 className="mt-12 font-bold text-center text-black text-2xl md:mt-16 md:ml-3 md:text-2xl lg:text-3xl lg:mt-20 xl:mt-24 xl:text-4xl">Album</h2>
     <DetailDestination3 />
     <Footer />
     </>

@@ -38,13 +38,13 @@ const DetailRestaurant = () => {
           img: Drink1,
           name: "Es Teh Manis",
           price: "9.000",
-          isPopular: false,
+          isPopular: true,
         },
         {
           img: Drink2,
           name: "Es Kelapa Muda",
           price: "22.000",
-          isPopular: true,
+          isPopular: false,
         },
         {
           img: Drink3,

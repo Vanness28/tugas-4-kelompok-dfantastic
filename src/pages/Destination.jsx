@@ -43,7 +43,7 @@ const Destination = () => {
     {
       img: DestinationImage5,
       Name: "Danau Linow",
-      Address: "Pinaras, Kota Tomohon, Sulawesi Utara",
+      Address: "Lahendong, Kota Tomohon, Sulawesi Utara",
       Deskripsi: "Kawasan Danau Linow memiliki udara sejuk dengan keindahan pemandangan alam di sekitarnya...",
     },
     {

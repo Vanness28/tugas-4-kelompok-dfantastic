@@ -11,15 +11,15 @@ const RestaurantDetail = () => {
                 <h2 className="font-bold text-black text-base md:text-3xl lg:text-4xl xl:text-5xl">Green Garden</h2>
                 <p className="text-xs md:text-sm lg:text-xl xl:text-2xl text-[#808080] pr-12 xl:pr-16 hidden md:block">Jl. Smp No.2, Kakaskasen Satu,  Kota Tomohon, Sulawesi Utara</p>
                 <p className="text-xs md:text-sm lg:text-xl xl:text-2xl text-[#808080] xl:pr-16 md:hidden">Tomohon, Sulawesi Utara</p>
-                <div className="flex flex-row space-x-1 lg:space-x-2 xl:space-x-3">
-                    <img src={Star} alt="" className="w-4 md:w-5 lg:w-7 xl:w-10" />
-                    <img src={Star} alt="" className="w-4 md:w-5 lg:w-7 xl:w-10" />
-                    <img src={Star} alt="" className="w-4 md:w-5 lg:w-7 xl:w-10" />
-                    <img src={Star} alt="" className="w-4 md:w-5 lg:w-7 xl:w-10" />
-                    <img src={Star} alt="" className="w-4 md:w-5 lg:w-7 xl:w-10" />
+                <div className="flex flex-row space-x-1 lg:space-x-2 xl:space-x-3 w-4 md:w-5 lg:w-7 xl:w-10">
+                    <img src={Star} alt="" className="" />
+                    <img src={Star} alt="" className="" />
+                    <img src={Star} alt="" className="" />
+                    <img src={Star} alt="" className="" />
+                    <img src={Star} alt="" className="" />
                 </div>
                 <p className="text-xs lg:text-base xl:text-2xl text-[#808080] md:pr-9 lg:pr-14 xl:pr-16 hidden md:block">Restoran ini menyediakan babi panggang dan menu ikan yang enak. Lokasi restoran ini sangat asri dan ditambah dengan pemandangan Gunung Lokon yang tampak jelas dari restoran ini.</p>
-                <p className="text-xs lg:text-base xl:text-2xl text-[#808080] pr-3 md:pr-6 lg:pr-14 xl:pr-16 md:hidden">Restoran ini menyediakan babi panggang dan menu ikan yang enak...</p>
+                <p className="text-xs lg:text-base xl:text-2xl text-[#808080] pr-3 md:pr-6 lg:pr-14 xl:pr-16 md:hidden">Restoran ini menyediakan babi panggang dan menu ikan yang enak.</p>
             </div>        
         </div>
     </>
