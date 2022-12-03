@@ -17,7 +17,7 @@ const DestinationHome = ({ img, Name, Address }) => {
                     <img src={Star} alt="" className="w-4 lg:w-6 xl:w-8" />
                 </div>
                 <p className="text-xs lg:text-base xl:text-lg text-white">{Address}</p>
-                <button className="bg-white rounded-md text-xs lg:text-base xl:text-xl text-black font-semibold text-center px-4 py-1 lg:py-1.5 lg:px-7 xl:py-2 xl:px-8 ml-10 min-[375px]:ml-16 min-[425px]:ml-14 md:ml-16 lg:ml-20 xl:ml-32"><Link to={'/detaildestination'}>Detail</Link></button>
+                <button className="hover:bg-black hover:text-white cursor-pointer bg-white rounded-md text-xs lg:text-base xl:text-xl text-black font-semibold text-center px-4 py-1 lg:py-1.5 lg:px-7 xl:py-2 xl:px-8 ml-10 min-[375px]:ml-16 min-[425px]:ml-14 md:ml-16 lg:ml-20 xl:ml-32"><Link to={'/detaildestination'}>Detail</Link></button>
             </div>        
         </div>
     </>

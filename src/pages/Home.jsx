@@ -80,7 +80,7 @@ const Home = () => {
             <Hero/>
             <div>
                 <h2 className="mt-12 font-bold text-center text-black text-2xl md:text-left md:mt-16 md:ml-9 md:text-2xl lg:text-3xl lg:mt-28 lg:ml-12 xl:mt-32 xl:ml-14 xl:text-4xl">Destinasi</h2>
-                <button className="text-[#152C5B] text-sm font-semibold mt-5 ml-24 min-[375px]:ml-32 min-[425px]:ml-36 md:ml-[600px] lg:ml-[830px] lg:text-lg xl:ml-[1185px] xl:text-2xl md:text-md"><Link to={'/destination'}>Lihat Selengkapnya</Link></button>
+                <button className="text-[#152C5B] text-sm font-semibold mt-5 ml-24 min-[375px]:ml-32 min-[425px]:ml-36 md:ml-[600px] lg:ml-[830px] lg:text-lg xl:ml-[1185px] xl:text-2xl md:text-md hover:text-[#0066FE] cursor-pointer"><Link to={'/destination'}>Lihat Selengkapnya</Link></button>
                 <div className="flex flex-col ml-20 min-[375px]:ml-28 min-[425px]:ml-32 md:ml-0 md:flex-row md:space-x-7 xl:space-x-14">
                 {rowOne.map((data) => (
                     <DestinationHome 
@@ -108,7 +108,7 @@ const Home = () => {
                 </div>
             <div>
                 <h2 className="mt-12 font-bold text-center text-black text-2xl md:text-left md:mt-16 md:ml-9 md:text-2xl lg:text-3xl lg:mt-28 lg:ml-12 xl:mt-32 xl:ml-14 xl:text-4xl">Restoran</h2>
-                <button className="text-[#152C5B] text-sm font-semibold mt-5 ml-24 min-[375px]:ml-32 min-[425px]:ml-36 md:ml-[600px] lg:ml-[830px] lg:text-lg xl:ml-[1185px] xl:text-2xl md:text-md"><Link to={'/restaurant'}>Lihat Selengkapnya</Link></button>
+                <button className="text-[#152C5B] text-sm font-semibold mt-5 ml-24 min-[375px]:ml-32 min-[425px]:ml-36 md:ml-[600px] lg:ml-[830px] lg:text-lg xl:ml-[1185px] xl:text-2xl md:text-md hover:text-[#0066FE] cursor-pointer"><Link to={'/restaurant'}>Lihat Selengkapnya</Link></button>
                 <div className="flex flex-col md:ml-0 md:flex-row md:space-x-0 xl:space-x-10">
                 {rowTwo.map((data) => (
                     <RestaurantHome
